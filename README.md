@@ -12,7 +12,7 @@ https://askubuntu.com/questions/1230016/headset-microphone-not-working-on-ubuntu
 ``Create/update a file under /etc/modprobe.d/alsa-base.conf, and add this line: options snd-hda-intel model=alc233-eapd, while replacing model with your own.``
 
 step 1: (make sure to keep the old ``alsa-base.conf`` in another location like Documents and replace these with your own) 
-``` options bt87x index=-2
+`` options bt87x index=-2
 options cx88_alsa index=-2
 options saa7134-alsa index=-2
 options snd-atiixp-modem index=-2
@@ -21,7 +21,7 @@ options snd-via82xx-modem index=-2
 options snd-usb-caiaq index=-2
 options snd-usb-ua101 index=-2
 options snd-usb-us122l index=-2
-options snd-usb-usx2y index=-2```
+options snd-usb-usx2y index=-2``
 
 place ``alsa-base.conf`` into ``/etc/modprobe.d`` after deleting the old one if there is a ``alsa-base.conf`` sitting in ``/etc/modprobe.d`` (some distros don't have one be default)
 
