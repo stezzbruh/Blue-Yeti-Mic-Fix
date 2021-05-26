@@ -1,4 +1,4 @@
-# Blue-Yeti-Mic-Fixe
+# Blue-Yeti-Mic-Fix
 fix for blue yeti mic not loading on boot
 
 
