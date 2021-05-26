@@ -7,7 +7,7 @@ https://askubuntu.com/questions/1230016/headset-microphone-not-working-on-ubuntu
 
 ``Use cat /proc/asound/card*/codec* | grep Codec to get the Audio Codec for your machine model. In my case I saw Audio (ex: Codec: Realtek ALC233) & Video (ex: Codec: Nvidia GPU 94 HDMI/DP) codecs there.```
 
-```Go to www.kernel.org and look up the version of the codec, and get the full name of it. In my case: Realtek ALC233 -> alc233-eapd``
+``Go to www.kernel.org and look up the version of the codec, and get the full name of it. In my case: Realtek ALC233 -> alc233-eapd``
 
 ``Create/update a file under /etc/modprobe.d/alsa-base.conf, and add this line: options snd-hda-intel model=alc233-eapd, while replacing model with your own.``
 
