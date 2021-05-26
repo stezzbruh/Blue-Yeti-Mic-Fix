@@ -63,8 +63,10 @@ place ``default.pa`` and ``system.pa`` into ``/etc/pulse`` after deleting the ol
 
 
 optional step: 
-open terminal and type ``pacmd list-sources`` then go into ``/etc/modprob.d/default.pa`` and change ``#set-default-source input`` to your prefered device ``set-default-source name-of-driver`` for example my blue yeti it is called alsa_card.usb-Generic_Blue_Microphones_2036BAB0DFR8-00 so it looks like ``set-default-source alsa_card.usb-Generic_Blue_Microphones_2036BAB0DFR8-00``
+open terminal and type ``pacmd list-sources`` then go into ``/etc/modprob.d/default.pa`` and change ``#set-default-source input`` to your prefered device ``set-default-source name-of-driver`` 
 
+for example my blue yeti it is called alsa_card.usb-Generic_Blue_Microphones_2036BAB0DFR8-00 so it looks like 
+``set-default-source alsa_card.usb-Generic_Blue_Microphones_2036BAB0DFR8-00``
 
 
 final step: 
