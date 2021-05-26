@@ -9,7 +9,7 @@ go to ``/etc/modprobe.d`` and move the old ``alsa-base.conf`` to another locatio
 step 2:
 place ``alsa-base.conf`` into ``/etc/modprobe.d`` after moving the old one if there is a ``alsa-base.conf`` sitting in ``/etc/modprobe.d`` (some distros don't have one be default)
 
-step 3: edit and replace (or even just delete) these in the new ``alsa-base.conf`` you got from me with your own 
+step 3: edit and replace (or even just delete) these in the new ``alsa-base.conf`` you got from me with your own ``sudo nano /etc/modprobe.d/alsa-base.conf``
 
 options bt87x index=-2
 
@@ -63,7 +63,7 @@ place ``default.pa`` and ``system.pa`` into ``/etc/pulse`` after deleting the ol
 
 
 optional step: 
-open terminal and type ``pacmd list-sources`` then go into ``/etc/modprob.d/default.pa`` and change ``#set-default-source input`` to your prefered device ``set-default-source name-of-driver`` 
+open 2 terminals and type ``pacmd list-sources`` in 1 then go into ``sudo nano /etc/modprob.d/default.pa`` in the other and change ``#set-default-source input`` to your prefered device ``set-default-source name-of-driver`` 
 
 for example my blue yeti it is called alsa_card.usb-Generic_Blue_Microphones_2036BAB0DFR8-00 so it looks like 
 ``set-default-source alsa_card.usb-Generic_Blue_Microphones_2036BAB0DFR8-00``
