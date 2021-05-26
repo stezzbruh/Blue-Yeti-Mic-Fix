@@ -9,7 +9,7 @@ go to ``/etc/modprobe.d`` and move the old ``alsa-base.conf`` to another locatio
 step 2:
 place ``alsa-base.conf`` into ``/etc/modprobe.d`` after moving the old one if there is a ``alsa-base.conf`` sitting in ``/etc/modprobe.d`` (some distros don't have one be default)
 
-step 3: edit and replace these in the new ``alsa-base.conf`` you got from me with your own 
+step 3: edit and replace (or even just delete) these in the new ``alsa-base.conf`` you got from me with your own 
 
 options bt87x index=-2
 
