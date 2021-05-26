@@ -49,6 +49,7 @@ use this reference: https://wiki.archlinux.org/title/Advanced_Linux_Sound_Archit
 ``/etc/modprobe.d/alsa-base.conf``
 
 ``options snd_mia index=0``
+
 ``options snd_hda_intel index=1``
 
 ``Use $ cat /proc/asound/modules to get the loaded sound modules and their order. This list is usually all that is needed for the loading order. Use $ lsmod | grep snd to get a devices & modules list. This configuration assumes you have one mia sound card using snd_mia and one (e.g. onboard) card using snd_hda_intel.``
