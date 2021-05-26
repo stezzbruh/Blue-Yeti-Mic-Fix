@@ -11,7 +11,7 @@ place ``alsa-base.conf`` into ``/etc/modprobe.d`` after moving the old one if th
 
 step 3: edit and replace (or even just delete) these in the new ``alsa-base.conf`` you got from me with your own ``sudo nano /etc/modprobe.d/alsa-base.conf``
 
-options bt87x index=-2
+``options bt87x index=-2
 
 options cx88_alsa index=-2
 
@@ -29,7 +29,7 @@ options snd-usb-ua101 index=-2
 
 options snd-usb-us122l index=-2
 
-options snd-usb-usx2y index=-2
+options snd-usb-usx2y index=-2``
 
 use this reference: 
 https://askubuntu.com/questions/1230016/headset-microphone-not-working-on-ubuntu-20-04
