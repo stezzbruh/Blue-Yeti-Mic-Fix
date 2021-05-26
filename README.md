@@ -2,8 +2,6 @@
 fix for blue yeti mic not loading on boot
 (warning may need to change some values if you a 3.5mm jack headset)
 
-references: 
-https://askubuntu.com/questions/1230016/headset-microphone-not-working-on-ubuntu-20-04
 
 step 1: 
 go to ``/etc/modprobe.d`` and move the old ``alsa-base.conf`` to another location like Documents
