@@ -75,4 +75,14 @@ final step:
 and if even that doesn't work. this last bit should do the trick. just give it a second after rebooting it is a bit janky.
 incomment the ``#`` on this line and add your blue yeti mic like the example below in ``/etc/pulse/default.pa``
 
-``load-module module-alsa-source device=hw:1,0 alsa_card.usb-Generic_Blue_Microphones_2036BAB0DFR8-00``
+
+
+``### Load audio drivers statically
+### (it's probably better to not load these drivers manually, but instead
+### use module-udev-detect -- see below -- for doing this automatically)
+#load-module module-alsa-sink
+load-module module-alsa-source device=hw:1,0 alsa_card.usb-Generic_Blue_Microphones_2036BAB0DFR8-00
+#load-module module-oss device="/dev/dsp" sink_name=output source_name=input
+#load-module module-oss-mmap device="/dev/dsp" sink_name=output source_name=input
+#load-module module-null-sink
+#load-module module-pipe-sink``
