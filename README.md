@@ -46,7 +46,7 @@ Go to www.kernel.org and look up the version of the codec, and get the full name
 
 Create/update a file under `/etc/modprobe.d/alsa-base.conf`, and add this line: `options snd-hda-intel index=1`, while replacing model with your own.
 
-use this reference: https://wiki.archlinux.org/title/Advanced\_Linux\_Sound\_Architecture
+.[use this reference:](https://wiki.archlinux.org/title/Advanced\_Linux\_Sound\_Architecture)
 
 ### Configuring the index order via kernel module options
 
