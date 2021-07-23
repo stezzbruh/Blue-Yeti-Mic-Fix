@@ -77,7 +77,7 @@ incomment the ``#`` on this line and add your blue yeti mic like the example bel
 
 
 
-``### Load audio drivers statically
+```### Load audio drivers statically
 ### (it's probably better to not load these drivers manually, but instead
 ### use module-udev-detect -- see below -- for doing this automatically)
 #load-module module-alsa-sink
@@ -85,4 +85,4 @@ load-module module-alsa-source device=hw:1,0 alsa_card.usb-Generic_Blue_Micropho
 #load-module module-oss device="/dev/dsp" sink_name=output source_name=input
 #load-module module-oss-mmap device="/dev/dsp" sink_name=output source_name=input
 #load-module module-null-sink
-#load-module module-pipe-sink``
+#load-module module-pipe-sink```
