@@ -91,4 +91,5 @@ then
 `sudo reboot`
 
 ## test rig
+*ignore the ram usage i have apps that start on launch cause ye 16gb of ram XD*
 ![Open other application](/neofetch2.0.png)
