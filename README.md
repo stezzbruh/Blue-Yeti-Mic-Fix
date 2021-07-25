@@ -83,10 +83,9 @@ for example my blue yeti it is called `alsa_card.usb-Generic_Blue_Microphones_20
 
 ## final step
 
-`sudo reboot`
-
-and if even that doesn't work. this last bit should do the trick. just give it a second after rebooting it is a bit janky.
+this last bit should do the trick. just give it a second after rebooting it is a bit janky.
 incomment the `#` on this line and add your blue yeti mic like the example below in `/etc/pulse/default.pa`
 
 `load-module module-alsa-source device=hw:1,0 alsa_card.usb-Generic_Blue_Microphones_2036BAB0DFR8-00`
-
+then
+`sudo reboot`
