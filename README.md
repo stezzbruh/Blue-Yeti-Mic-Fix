@@ -91,3 +91,4 @@ then
 `sudo reboot`
 
 ## test rig
+![Open other application](/neofetch2.0.png)
