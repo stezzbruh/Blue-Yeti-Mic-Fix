@@ -8,7 +8,7 @@ fix for blue yeti mic not loading on boot
 
 go to `/etc/modprobe.d` and move the old `alsa-base.conf` to another location like Documents
 
-## step 2
+## step 2 (is optional *tested*)
 
 place `alsa-base.conf` into `/etc/modprobe.d` after moving the old one if there is a `alsa-base.conf` sitting in `/etc/modprobe.d` (some distros don't have one be default)
 
