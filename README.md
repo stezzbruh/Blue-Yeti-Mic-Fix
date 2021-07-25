@@ -89,3 +89,5 @@ incomment the `#` on this line and add your blue yeti mic like the example below
 `load-module module-alsa-source device=hw:1,0 alsa_card.usb-Generic_Blue_Microphones_2036BAB0DFR8-00`
 then
 `sudo reboot`
+
+## test rig
