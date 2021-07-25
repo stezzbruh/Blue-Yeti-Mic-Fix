@@ -12,7 +12,7 @@ go to `/etc/modprobe.d` and move the old `alsa-base.conf` to another location li
 
 place `alsa-base.conf` into `/etc/modprobe.d` after moving the old one if there is a `alsa-base.conf` sitting in `/etc/modprobe.d` (some distros don't have one be default)
 
-## step 3 
+## step 3 (is optional *tested*)
 
 edit and replace (or even just delete) these in the new `alsa-base.conf` you got from me with your own `sudo nano /etc/modprobe.d/alsa-base.conf`
 
