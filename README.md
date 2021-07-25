@@ -1,4 +1,4 @@
-# Blue-Yeti-Mic-Fix (Ubuntu and Ubuntu-based) ***updated***
+# Blue-Yeti-Mic-Fix (Ubuntu and Ubuntu-based) 
 
 fix for blue yeti mic not loading on boot
 (warning may need to change some values if you use a 3.5mm jack headset)
