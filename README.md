@@ -1,5 +1,7 @@
 # Blue-Yeti-Mic-Fix (Ubuntu and Ubuntu-based) 
 
+# Obsolete with Pipewire
+
 fix for blue yeti mic not loading on boot (20.04 LTS)
 (warning may need to change some values if you use a 3.5mm jack headset)
 
